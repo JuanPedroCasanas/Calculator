@@ -2,7 +2,6 @@ Simple calculator, not intended for scientific purposes.
 Rounds float numbers to 2 decimals.
 Works with numpad input.
 
---to add:
+Project done.
 
-Obviously CSS, also responsive design for desktop enviorenment
-Functions are finished
+Maybe will add github credits inside the live page.

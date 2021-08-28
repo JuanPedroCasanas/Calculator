@@ -159,8 +159,7 @@ function solveOperation() {
   switch (operator) {
     case '+':
       num.textContent = sum(num.textContent, result.textContent);
-      if (num.textContent == 'NaN') { num.textContent = 'Syntax Error'; }
-      result.textContent = '';
+      if (num.textContent == 'NaN') { num.textContent = 'Syntax Error';}
       break;
 
     case '-':
@@ -206,6 +205,8 @@ function recognizeKey(e) {
   const pressedKey = document.querySelector
     (`button[data-key = '${e.keyCode ? e.keyCode : e.charCode}']`);
 
+  pressedKey.classList.add('active');
+
   switch (pressedKey.textContent) {
     case '=':
       displayResult();
@@ -235,4 +236,5 @@ function recognizeKey(e) {
       addDigit(pressedKey.textContent);
       break;
   }
+  setTimeout(()=>{ pressedKey.classList.remove('active'); }, 200);
 }
