@@ -3,12 +3,12 @@
 }
 @font-face {
   font-family:'calculator';
-  src: url(/fonts/Digital7Mono-B1g5.ttf);
+  src: url(/Calculator/fonts/Digital7Mono-B1g5.ttf);
 }
 
 @font-face {
   font-family:'roboto';
-  src: url(/fonts/Roboto-Regular.ttf);
+  src: url(/Calculator/fonts/Roboto-Regular.ttf);
 }
 
 @media (max-width: 1024px){
