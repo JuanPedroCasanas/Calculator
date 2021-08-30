@@ -149,6 +149,25 @@ button:hover, .active{
   transform: scale(120%);
   transition: 0.1s;
 }
+.credits{
+  transform: scale(175%);
+  display: flex;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3%;
+  border-radius: 100%;
+}
+
+img{
+  background-color: white;
+  border-radius: 100%;
+  border: solid white 1px
+}
+
+.credits:hover{
+  box-shadow: yellow 0em 0em 0.2em;
+  transform:scale(200%);
+}
 }
 
 @media (min-width: 1024px){
@@ -289,4 +308,24 @@ button:hover, .active{
     transform: scale(120%);
     transition: 0.1s;
   }
+
+.credits{
+  transform: scale(175%);
+  display: flex;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 2.1%;
+  border-radius: 100%;
+}
+
+img{
+  background-color: white;
+  border-radius: 100%;
+  border: solid white 1px
+}
+
+.credits:hover{
+  box-shadow: yellow 0em 0em 0.3em;
+  transform:scale(200%);
+}
 }
